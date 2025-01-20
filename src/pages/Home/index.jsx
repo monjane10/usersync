@@ -1,3 +1,6 @@
+/**
+ * Author: Lourenço Monjane
+ */
 import Trash from '../../assets/Trash.svg';
 import './style.css';
 import api from '../../services/api';
