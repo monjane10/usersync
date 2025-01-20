@@ -79,3 +79,59 @@ form {
         opacity: 0.5;
     }
 }
+
+
+/* Para telas menores que 768px (dispositivos móveis) */
+@media (max-width: 768px) {
+    .container {
+        padding-top: 50px; 
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    form {
+        width: 90%; 
+        max-width: 100%; 
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .card p {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px; 
+    }
+
+    form {
+        padding: 20px; 
+        width: 100%; 
+    }
+
+    form input,
+    form button {
+        font-size: 14px; 
+        height: 35px; 
+    }
+
+    .card {
+        padding: 8px;
+    }
+
+    .card p {
+        font-size: 12px; 
+    }
+
+    .card button img {
+        width: 15px; 
+        height: 15px;
+    }
+}
