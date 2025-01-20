@@ -64,6 +64,9 @@ function Home() {
                 autoClose: 3000,
                 position: 'top-right'
             });  
+
+            getUsers();
+            
         } catch (error) {
             console.error('Erro ao remover o utilizador:', error);
             toast.error('Erro ao remover o utilizador!', {
